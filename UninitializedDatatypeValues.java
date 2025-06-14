@@ -1,4 +1,4 @@
-public class Main {
+public class UninitializedDatatypeValues {
 
     //primitive Datatypes
     static byte byteVal;
@@ -13,7 +13,7 @@ public class Main {
     //Reference Datatypes
     static String stringVal;
     static int[] arrayVal;
-    static Main MainObj;
+    static UninitializedDatatypeValues MainObj;
 
     public static void main(String[] args){
 
