@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("Value of uninitialized byte: "+byteVal);
         System.out.println("Value of uninitialized short: "+shortVal);
-        System.out.println("Value of uninitialized int: "+intVal);
+        System.out.println("Value of uninitialized int: "+ intVal);
         System.out.println("Value of uninitialized long: "+longVal);
         System.out.println("Value of uninitialized float: "+floatVal);
         System.out.println("Value of uninitialized double: "+doubleVal);
