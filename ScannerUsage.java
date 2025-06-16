@@ -15,5 +15,6 @@ public class ScannerUsage {
         //read a boolean
         sc.nextBoolean();
 
+
     }
 }
