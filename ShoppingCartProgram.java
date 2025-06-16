@@ -38,5 +38,7 @@ public class ShoppingCartProgram {
         }
         System.out.println("Total amount is: "+result+"₹");
 
+        inputVangurathu.close();
+
     }
 }

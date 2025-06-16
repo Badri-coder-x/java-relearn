@@ -29,5 +29,7 @@ public class MyMadLibsGame {
         System.out.println("Hi, I am "+myName+" and I am "+age+" years old.");
         System.out.println("Tomorrow we are going to "+country+" to become a "+noun1+".");
         System.out.println(myName+" likes to "+verb+" in "+place+" and loves to have "+food+" as dinner.");
+
+        sc.close();
     }
 }
