@@ -11,29 +11,19 @@ public class ShoppingCartProgram {
         n = inputVangurathu.nextInt();
 
         String[] itemList = {"Note","Pen","Chocolate","Eraser","Pencil"};
-        int temp=0, value=0,result=0;
+        int temp, value=0,result=0;
 
         for(int i=1;i<=itemList.length;i++){
             System.out.print("Enter the quantity of "+itemList[i-1]+": ");
             temp = inputVangurathu.nextInt();
-            switch (i){
-                case 1:
-                    value= 30;
-                    break;
-                case 2:
-                    value = 10;
-                    break;
-                case 3:
-                    value = 5;
-                    break;
-                case 4:
-                    value = 2;
-                    break;
-                case 5:
-                    value = 6;
-                    break;
-
-            }
+            value = switch (i) {
+                case 1 -> 30;
+                case 2 -> 10;
+                case 3 -> 5;
+                case 4 -> 2;
+                case 5 -> 6;
+                default -> value;
+            };
             result += (value*temp);
         }
         System.out.println("Total amount is: "+result+"₹");
