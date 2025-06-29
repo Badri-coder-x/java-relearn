@@ -1,3 +1,5 @@
+package com.Badri.basics;
+
 public class UsingMathClass {
     public static void main(String[] args){
 

@@ -1,3 +1,5 @@
+package com.Badri.basics;
+
 public class LearningSubstring {
 
     public static void main(String [] args){

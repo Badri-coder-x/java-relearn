@@ -1,3 +1,5 @@
+package com.Badri.basics;
+
 import java.util.Scanner;
 
 public class ShoppingCartProgram {

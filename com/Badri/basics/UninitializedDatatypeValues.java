@@ -1,3 +1,5 @@
+package com.Badri.basics;
+
 public class UninitializedDatatypeValues {
 
     //primitive Datatypes

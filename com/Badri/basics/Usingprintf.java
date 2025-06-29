@@ -1,3 +1,5 @@
+package com.Badri.basics;
+
 public class Usingprintf {
 
     public static void main(String[] args){
